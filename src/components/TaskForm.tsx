@@ -27,7 +27,7 @@ interface TaskFormProps {
             placeholder="Ex. Brush your teeth"
             onChange={(e) => setTitle(e.target.value)}
             required
-            className=" bg-[#262626] text-gray mt-1 block w-full rounded-md p-2 focus:border-blue-500 focus:ring-blue-500"
+            className="border-gray-400 border-2 text-black mt-1 block w-full rounded-md p-2"
           />
         </div>
   

@@ -13,14 +13,14 @@ export default function TaskSummary({ tasks }: TaskSummaryProps) {
       <div className="flex flex-row justify-between text-gray-600">
         <div className="flex flex-row">
             <div className="text-[#1E6F9F] font-extrabold pr-2">Tasks</div>
-            <div className="w-7 l-6 pl-[9px] text-white font-extrabold rounded-full bg-gray-700">
+            <div className="w-15 l-6 pl-[9px] pr-[9px] text-white font-extrabold rounded-full bg-gray-700">
             {tasks.length}
             </div>
         </div>
         <div>
             <div className="flex flex-row">
             <div className="text-[#5e60ce] font-extrabold pr-2">Completed</div>
-           <div className="w-7 l-6 pl-[9px] text-white font-extrabold rounded-full bg-gray-700">
+           <div className="w-15 l-6 pl-[9px] pr-[9px] text-white font-extrabold rounded-full bg-gray-700">
            {completedTasks}
            </div>
         </div>

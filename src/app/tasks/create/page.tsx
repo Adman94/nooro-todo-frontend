@@ -22,7 +22,7 @@
     };
   
     return (
-      <div className="container flex flex-col items-center justify-center mx-auto px-4 py-8 w-full">
+      <div className="bg-[#262626] flex flex-grow flex-col items-center justify-between px-4 py-8">
         <TaskForm onSubmit={handleSubmit} onCancel={() => router.push('/')} />
       </div>
     );

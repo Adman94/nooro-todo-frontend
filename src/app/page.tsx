@@ -48,7 +48,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex-grow w-full mx-auto px-4">
+    <main className="bg-[#262626] flex-grow w-full mx-auto px-4">
       <div className="w-[60%] mx-auto mb-10">
         <div className="relative z-20 mt-[-20px] flex flex-col justify-between items-center mb-8">
           <button
